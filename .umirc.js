@@ -1,14 +1,9 @@
 // ref: https://umijs.org/config/
 const projectName = 'adtop';
 const env = process.env.API_HOST;
-const publicPath = {
-  dev: `/${projectName}/`,
-  pre: `//shuocdn.108sq.cn/frontEnd/pre/mobile/${projectName}/`,
-  prod: `//shuocdn.108sq.cn/frontEnd/prod/mobile/${projectName}/`,
-};
 const px2rem = require('postcss-plugin-px2rem');
 export default {
-  publicPath: '/',
+  publicPath: '/tools/',
   history: 'hash',
   hash: true,
   outputPath: './docs/',
