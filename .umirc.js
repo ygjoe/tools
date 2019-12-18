@@ -11,9 +11,8 @@ export default {
   publicPath: '/',
   history: 'hash',
   hash: true,
-  // history: 'hash',
-  outputPath: './dist/',
-  /*global projectName:false API_HOST:false isConsole:false process.env.ENV:false LOGO_TEXT:false LOGO_IMG:false REM:false*/
+  outputPath: './docs/',
+  /*global projectName:false REM:false*/
   'define': {
     'REM': 75,  // 修改 px2rem的rootValue请一同修改此处，部分backgroundImage使用style内联写法。
   },
