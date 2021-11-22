@@ -1,5 +1,4 @@
 import React from 'react'
-
 import Link from 'umi/link'
 
 class App extends React.Component {
@@ -12,10 +11,10 @@ class App extends React.Component {
     return (
       <ul>
         <li>
-          <Link to='/userAgent'>User Agent</Link>
+          <Link to='/files/gitignore'>gitignore</Link>
         </li>
         <li>
-          <Link to='/files'>配置文件</Link>
+          <Link to='/files/npmrc'>npmrc</Link>
         </li>
       </ul>
     )
