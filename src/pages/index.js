@@ -14,9 +14,6 @@ class App extends React.Component {
         <li>
           <Link to='/userAgent'>User Agent</Link>
         </li>
-        <li>
-          <Link to='/files'>配置文件</Link>
-        </li>
       </ul>
     )
   }

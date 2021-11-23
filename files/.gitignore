@@ -1,0 +1,17 @@
+.idea
+.vscode
+.project
+.git
+.DS_Store
+
+.umi
+.umi-production
+
+node_modules
+dist
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+yarn.lock
+package-lock.json
