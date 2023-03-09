@@ -13,6 +13,9 @@ class App extends React.Component {
         <li>
           <Link to="/userAgent">User Agent</Link>
         </li>
+        <li>
+          <Link to="/formatRouter">Format Router</Link>
+        </li>
       </ul>
     );
   }
